@@ -1,0 +1,39 @@
+# Security & Credentials
+*.pem
+*.key
+*.sso
+*.p12
+*.crt
+Wallet_*/
+config
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Testing & Logs
+.pytest_cache/
+.coverage
+htmlcov/
+logs/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
